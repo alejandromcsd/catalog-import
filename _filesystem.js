@@ -21,7 +21,7 @@ module.exports = {
         // Warning on invalid columns
         const ignored = []
         header.forEach(h => {
-          if(!env.allFields.includes(h)) ignored.push(h);
+          if(!env.allFields.includes(h) && h!=='ImageRef') ignored.push(h);
         });
 
         if(ignored.length) {
