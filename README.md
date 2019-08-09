@@ -22,9 +22,9 @@ node import.js
 ```
 
 # Notes
-1. The import program will allow you to indicate local paths for the following:
-* Import file in csv format (see template.csv for sample format). Default value: "ciam.csv"
-* Screenshots folder containing PNG images. Default value: "/images"
+1. During execution, program will allow you to enter local paths for the following:
+* File path for import file in csv format (see template.csv for sample format). Default filepath: "ciam.csv"
+* Folder path for Screenshots folder containing PNG images. Default value: "/images"
 
 
 2. Screenshots rules:
